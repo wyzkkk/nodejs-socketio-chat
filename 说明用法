@@ -1,0 +1,7 @@
+需要改造的东西：
+
+1. git clone https://github.com/plhwin/nodejs-socketio-chat.git 
+2. 在 server 目录下执行    npm  install --save express   和  npm install --save socket.io
+3. 把 client 下d index.html 中的 socket.io.js 的路径改成 自己真实的路径，线上代码的路径有错
+4. 把 client 下的 client.js 中的 this.socket = io.connect('ws://192.168.1.221:3000');  改成自己本地的 OK
+  
